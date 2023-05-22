@@ -1,0 +1,145 @@
+.navigation{
+    display: flex;
+   
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    
+   
+}
+
+.navLink:not(:last-child){
+    margin-right: 30px;
+}
+.linkCart{
+    margin: 0 8px 0 10px;
+    
+}
+
+
+.wrapper-hero
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 530px;
+    background-image: url(/img/IMAGE.png); 
+    z-index: -1;
+    
+}
+.hero-text{
+
+background-color:rgb(180, 180, 180);
+}
+
+
+.hero-text:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.hero-text-button{
+    margin-top: 38px;
+}
+
+.wrapper-discr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 262px;
+}
+
+.parent-card{
+    display: flex;
+}
+
+.foto-card{
+    width: 460px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.foto-card:not(:last-child){
+    margin-right: 20px;
+    
+}
+
+.img-exm{
+    margin-bottom: 35px;
+
+}
+
+.text-exp{
+    margin-bottom: 5px;  
+}
+
+
+.price{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.tovar-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.coffe-card{
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 65px;
+}
+
+.coffe-card:not(:nth-child(3n)){
+    margin-right: 17px;
+
+}
+
+
+.name-png{
+margin-bottom: 35px;
+}
+
+.picture-cup{
+    margin-bottom: 8px;  
+}
+
+.price-cup{
+    display: flex;
+}
+
+.magazine{
+    display: flex;
+    margin-bottom: 85px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
